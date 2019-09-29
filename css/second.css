@@ -1,0 +1,112 @@
+*{
+   
+
+}
+
+
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #333;
+
+}
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.9;
+
+}
+
+body span{
+    color: #008ed6;
+    
+}
+
+body .maina{
+    font-weight: bold;
+}
+
+
+.v-header{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: rgb(34, 120, 116) 6px solid;
+}
+.fullscreen-video-wrap{
+    height: auto;
+    width: 100%;    
+    position: relative;
+}
+.fullscreen-video-wrap video{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    top:0;
+    left: 0;
+    /* opacity: 0.45; */
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(25, 142, 209, 0.719);
+    opacity: 0.35;
+    z-index: 1;
+}
+.header-content{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+   
+   
+}
+.header-content h1{
+    font-size: 50px;
+    color: #008ed6;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+.header-content h2{
+    font-size: 1.5rem;
+    color: #008ed6;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 2rem;
+    font-weight: bold;
+}
+.header-content h1 span{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nawa{
+    margin: 0;
+    width: 100%;
+
+}
+.nawa img{
+    margin: auto;
+    width: 100%;
+}
+.table{
+    margin: auto;
+    width: 80%;
+    color:#fff;
+    margin-top: 20px;
+}
+.table td{
+    text-align: center;
+    width: 40%;
+}
+
+.table th{
+     width: 20%;
+     text-align: center;
+}
