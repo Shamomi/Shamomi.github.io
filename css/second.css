@@ -67,24 +67,7 @@ body .maina{
    
    
 }
-.header-content h1{
-    font-size: 50px;
-    color: #008ed6;
-    overflow: hidden;
-    margin-bottom: 0;
-}
-.header-content h2{
-    font-size: 1.5rem;
-    color: #008ed6;
-    overflow: hidden;
-    display: block;
-    padding-bottom: 2rem;
-    font-weight: bold;
-}
-.header-content h1 span{
-    color: #fff;
-    font-weight: bold;
-}
+
 
 .nawa{
     margin: 0;
@@ -109,4 +92,107 @@ body .maina{
 .table th{
      width: 20%;
      text-align: center;
+}
+.dew{
+   
+}
+.raw{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+
+.bare{
+    width: 80%;
+    margin-top: 50px;
+    border: #008ed6 3px solid;
+    margin-bottom: 50px;
+}
+.bare th{
+    width: 13.5%;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /*fixed=parallax
+    scroll=normal*/
+
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url(../img/img1.jpg);
+    min-height: 350px;
+}
+
+.pimg2{
+    background-image: url(../img/img2.jpg);
+    min-height: 350px;
+}
+
+.pimg3{
+    background-image: url(../img/img3.jpg);
+    min-height: 350px;
+} 
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.section-dark{
+    background-color: #333;
+    color: #ddd;
+    border-top: #fff 3px solid;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing:8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+}
+.ptext .border .trans{
+    background-color: transparent;
+}
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
+
+footer {
+    min-height: 60px;
+    border-top: #008ed6 4px solid;
+    color: #fff;
+    text-align: center;
+}
+.zar{
+    height: 50%;
+}
+
+footer a{
+    color: #fff;
+    font-weight: bold;
+}
+.vus{
+    margin-left: 10px;
+}
+footer a:hover{
+    color: #fff;
+    font-weight: bold;
 }

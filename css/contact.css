@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+    color: #fff;
+}
+.navbar{
+    border-bottom: #008ed6 3px solid;
+    opacity: 0.9;
+}
+   
+   
+   
+    body span{
+        color: #008ed6;
+        
+    }
+    body .maina{
+        font-weight: bold;
+    }
+    .navva{
+        font-weight: bold;
+    }
+    #main{
+        width: 80%;
+        margin: auto;
+        margin-top: 60px;
+    }
+    #sevices li{
+width: 90%;
+
+    }
+    .page-title{
+        border-bottom:#008ed6 3px solid;
+        text-align: center;
+    }
+    #services{
+        margin-top: 40px;
+    }
+    #services li{
+        border: #008ed6 3px solid;
+        width: 48%;
+        list-style: none;
+        text-align: center;
+       margin-bottom: 20px;
+    }
+    #sidebar{
+        border: #008ed6 3px solid;
+        width: 48%;
+        text-align: center;
+       margin-bottom: 20px;
+       float:right;
+       margin-top: -49.9%;
+    }
+    #sidebar input, textarea{
+        width: 70%;
+        border-radius: 10px;
+        
+    }
+    #sidebar button{
+        width: 70%;
+        margin-bottom: 8px;
+        margin-top: 5px;
+        background: #008ed6;
+        font-weight: bold;
+        color: #fff;
+        border-radius: 10px;
+    }
+    #sidebar button:hover{
+        background: #fff;
+        color: #008ed6;
+    }
+    .main-col{
+        text-transform: uppercase;
+    }
+    .map{
+        margin: 0 !important;
+        width: 100% !important;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    footer {
+        min-height: 60px;
+        border-top: #008ed6 4px solid;
+        color: #fff;
+        text-align: center;
+    }
+    .zar{
+        height: 50%;
+    }
+    
+    footer a{
+        color: #fff;
+        font-weight: bold;
+    }
+    .vus{
+        margin-left: 10px;
+    }
+    footer a:hover{
+        color: #fff;
+        font-weight: bold;
+    }
+
+   
