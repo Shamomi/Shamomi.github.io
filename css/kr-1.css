@@ -7,17 +7,16 @@
 body{
     margin: 0 !important;
     padding: 0 !important;
-    background: #333;
 
 }
 .navbar{
-    border-bottom: #008ed6 3px solid;
+    border-bottom: #5edfff 3px solid;
     opacity: 0.9;
 
 }
 
 body span{
-    color: #008ed6;
+    color: #333;
     
 }
 
@@ -30,7 +29,7 @@ body .maina{
     width: 100%;
     height: auto;
     display: block;
-    border-bottom: rgb(34, 120, 116) 6px solid;
+    border-bottom: #333 6px solid;
 }
 .fullscreen-video-wrap{
     height: auto;
@@ -51,7 +50,7 @@ body .maina{
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(25, 142, 209, 0.719);
+    background: #333;
     opacity: 0.35;
     z-index: 1;
 }
@@ -93,27 +92,32 @@ body .maina{
      width: 20%;
      text-align: center;
 }
-.dew{
-   
+
+.tab1, .tab3{
+    background-color: #008fd6c9;
+    padding: 10px 0 30px 0;
 }
+.tab2{
+    padding: 10px 0 30px 0;
+}
+.rem{
+    font-size: 10px;
+    color: #fff;
+}
+
+
 .raw{
    width: 80%;
    margin: auto;
    text-align: center;
 }
 
-.bare{
-    width: 80%;
-    margin-top: 50px;
-    border: #008ed6 3px solid;
-    margin-bottom: 50px;
-}
 .bare th{
     width: 13.5%;
 }
 .pimg1, .pimg2, .pimg3{
     position: relative;
-    opacity: 0.7;
+    opacity: 0.9;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,17 +129,18 @@ body .maina{
 }
 
 .pimg1{
-    background-image: url(../img/img1.jpg);
+    background-image: url(../img/vagita.jpg);
     min-height: 350px;
+    border-bottom: #008ed6 5px solid;
 }
 
 .pimg2{
-    background-image: url(../img/img2.jpg);
+    background-image: url(../img/cotton.jpg);
     min-height: 350px;
 }
 
 .pimg3{
-    background-image: url(../img/img3.jpg);
+    background-image: url(../img/6.jpeg);
     min-height: 350px;
 } 
 .section{
@@ -144,10 +149,10 @@ body .maina{
 }
 .section-light{
     background-color: #f4f4f4;
-    color: #333;
+    color: #00;
 }
 .section-dark{
-    background-color: #333;
+    background-color: #008ed6;
     color: #ddd;
     border-top: #fff 3px solid;
 }
@@ -156,13 +161,13 @@ body .maina{
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: #008ed6;
     font-size: 27px;
     letter-spacing:8px;
     text-transform: uppercase;
 }
 .ptext .border{
-    background-color: #111;
+    background-color: #008ed6;
     color: #fff;
     padding: 20px;
 }
@@ -172,6 +177,9 @@ body .maina{
 @media(max-width:568px){
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
+    }
+    .ptext{
+        font-size: 15px;
     }
 }
 
@@ -195,4 +203,41 @@ footer a{
 footer a:hover{
     color: #fff;
     font-weight: bold;
+}
+footer{
+    margin: 0 !important;
+}
+.mains{
+    text-align: center;
+    padding: 60px 0 60px 0;
+    background-color: #008ed6;
+    border-top: rgb(235, 235, 235) 3px solid;
+    border-bottom: rgb(235, 235, 235) 3px solid;
+}
+.apply{
+    width: 60%;
+    margin: auto;
+    color: rgb(238, 237, 237);
+}
+.mains1{
+    text-align: center;
+    background: #008ed6;
+    padding: 60px 0 60px 0;
+}
+.apply1{
+    width: 60%;
+    margin: auto;
+    color: rgb(238, 237, 237);
+}
+
+.mains2{
+    border-top: rgb(235, 235, 235) 3px solid;
+    border-bottom: rgb(235, 235, 235) 3px solid;
+    background: #008ed6;
+    padding: 60px 0 60px 0;
+}
+.apply2{
+    width: 56%;
+    margin: auto;
+    color: rgb(238, 237, 237);
 }
